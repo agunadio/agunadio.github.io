@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type = "text/javascript" src = "index.js"></script>
+        <style>
+            
+            
+            @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+            
+        </style>
+            <link rel = "stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <div id ="searchBar">
+            <h1>Artist Directory</h1>
+            <div id = "searchBar1">
+                <input id="searchBarInput" type = "text">
+                <button type= "button" id = "addArtist" onclick = "add()"> Add Artist </button>
+            </div>
+            
+        </div>
+        <div id = "addDiv" style= "display: none;">
+            <form id = "inputForm">
+                <ul>
+                    <li><input type = "text" id = "name" placeholder = "Artist Name"></li>   
+                    <li><input type = "text" id = "aboutArtist" placeholder = "About Artist"></li>   
+                    <li><input type = "text" id = "artistUrl" placeholder = "Image url"></li>   
+                    <!--<li><button type = "button" onclick = "addToList()"> Add </button></li>   -->
+                </ul>
+                <button type = "button" onclick = "addToList()"> Add </button>
+            </form>
+        </div>
+
+        
+        <div id = "artistsDiv">
+            <!--
+            <div class = "artist">
+                <span class = "helper"></span><img src="https://randomuser.me/api/portraits/med/women/1.jpg">
+                <div class = "artistDesc">
+                    
+                    <h3>Shea Bernan</h3>
+                    <p>Royal Academy of Painting</p>
+                </div>
+            </div> -->
+        </div>
+        
+    </body>
+</html>
