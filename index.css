@@ -17,10 +17,16 @@ body{
 #searchBarInput { 
     width:400px;
 }
+#searchButton{
+    width: 100px;
+    background-color: lightgray;
+    border: solid lightgray;
+}
 #addArtist{
     width: 100px;
     background-color: lightgray;
     border: solid lightgray;
+    margin-right: 5px;
 }
 
 #searchBar{
@@ -104,7 +110,7 @@ body{
     background-color: lightgray;
 }
 
-#pic{
+.pic{
     padding: 10px;
     vertical-align: middle;
     max-height: 90px;
